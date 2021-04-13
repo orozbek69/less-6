@@ -1,0 +1,362 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-inner {
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: contents;
+    width: 100%;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #22262A;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-list_item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menu-link {
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A
+}
+
+.fa-heart {
+    margin: 0 30px;
+}
+
+#hero {
+    background: url("../image/hero/herobg.png")left center/cover no-repeat;
+    min-height: 745px;
+}
+
+.hero-item__inner {
+    position: relative;
+    min-height: 745px;
+}
+
+.hero-item__content {
+    position: absolute;
+    right: -105px;
+    bottom: 100px;
+}
+
+.hero-desc {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+    display: block;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+
+.hero-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 5px 30px;
+    margin: 30px 35px 0 0;
+    display: inline-block;
+    background: black;
+}
+
+#women, #men, #avon, #bg {
+    margin-top: 115px;
+}
+
+.title-one {
+     display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+}
+
+.title-shop {
+    margin: 15px 0 65px 0;
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.igure {
+    display: block;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.title {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.new-price {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: red;
+    margin-left: 15px;
+}
+
+.photo {
+    position: relative;
+    margin: 0 -15px 0 -15px;
+}
+
+.photo-famele {
+    position: relative;
+    bottom: -7px;
+    padding: 72px 15px 0 15px;
+}
+
+.photo-famele2 {
+    position: absolute;
+}
+
+.photo-famele3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.z-ind {
+    position:absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 227px;
+    height: 281px;
+    background: white;
+}
+
+.swd {
+    position: absolute;
+    right: 255px;
+    bottom: 45px;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A
+}
+
+#bg {
+    position: relative;
+    background: url("../image/photo-bg/famele-bg.png")right center/cover no-repeat;
+    min-height: 745px;
+}
+
+.title-bg {
+    position: absolute;
+    top: 435px;
+    left: 230px;
+}
+
+.own-day {
+
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.title-19 {
+    display: block;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+
+.shop-btn {
+    display: block;
+    background: black;
+    width: 215px;
+    height: 35px;
+    padding: 4px 25px 4px 25px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF
+}
+
+#lest {
+    background: #F2F8FC;
+    min-height: 606px;
+}
+
+.col-6 {
+    width: 100%;
+}
+
+.vse {
+    display: flex;
+    position: relative;
+}
+
+.your-logo {
+    display: block;
+}
+
+.recive-title {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+}
+
+.fa-crosshairs {
+    margin-right: 25px;
+}
+
+.your {
+    margin: 115px 0 15px 0;
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+}
+
+.text-logo {
+    margin-bottom: 40px;
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.comilla-logo {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.gmail-ru {
+    width: 240px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.tel {
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.fab {
+    margin-right: 5px;
+}
+
+.reu {
+    display: flex;
+    position: absolute;
+    right: -85px;
+}
+
+.email {
+    margin-top: 25px;
+    width: 538px;
+    height: 45px;
+}
+
+
+.recive-email {
+    margin: 115px 0 70px 0;
+    position: relative;
+    left: 118px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.shop {
+    margin-right: 90px;
+}
+
+.title-lest {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22262A;
+}
+
+.list-li {
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A
+}
+
+.footer {
+    background: #E7F5F8;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
